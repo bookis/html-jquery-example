@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  color: white;
+  opacity: 0.5;
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+#popup #inner {
+  margin: 20px auto;
+  width: 50%;
+  background-color: #ddd;
+  color: black;
+  height: 600px;
+}
